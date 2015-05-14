@@ -15,6 +15,7 @@ final class AppKernel extends Kernel
     {
         $bundles = [
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
+            new PMG\FromScratch\AppBundle\AppBundle(),
         ];
 
         return $bundles;
