@@ -14,7 +14,7 @@ final class AppKernel extends Kernel
     public function registerBundles()
     {
         $bundles = [
-            // we'll put stuff here later
+            new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
         ];
 
         return $bundles;
