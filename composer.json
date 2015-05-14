@@ -1,5 +1,10 @@
 {
     "require": {
         "symfony/symfony": "2.7.0-BETA2"
+    },
+    "autoload": {
+        "files": [
+            "app/AppKernel.php"
+        ]
     }
 }
